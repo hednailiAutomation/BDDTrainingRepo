@@ -42,7 +42,7 @@ public class LoginStep  extends Base {
 	@Then("his is navigated to account page")
 	public void  his_is_navigated_to_account_page() {
 		
-		
+		lp.validateLogin();
 	}
 	
 	
